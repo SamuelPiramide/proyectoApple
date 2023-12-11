@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -55,14 +56,14 @@ nav a {
 body{
     background-color: #f5f5f7;
 }
+
 .containertvycasa{
     display: flex;
     flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
 }
 
 .containertvycasa img{
@@ -84,6 +85,47 @@ body{
     font-size: 24px;
     text-align: center;
 }
+
+
+.containertarjetas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.containertarjetas img{
+    width: 100%;
+    height: auto;
+}
+
+.c1{
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tarjeta button{
+    background: #0071E3;
+    border: none;
+    border-radius: 980px;
+    color: white;
+    padding: 12px 22px;
+}
+
+#tarjeta1{
+    background-color: black;
+    color: white;
+}
+
 
 
 
@@ -148,7 +190,6 @@ body{
 
 
 /* TELEVISION */
-
 @media all and (min-width: 1201px) {
 
     .containertvycasa h1{
