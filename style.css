@@ -22,6 +22,15 @@ nav a {
     color: rgb(58, 58, 58);
 }
 
+#menuindex{
+    background-color: #363636;
+}
+
+#menuindex a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
 .container1 {
     background: url(images/apple1.jpg) no-repeat;
     background-position: center;
@@ -81,8 +90,8 @@ body{
 
 
 
-/* MOVILES*/
-@media all and (min-width: 320px) and (max-width: 480px) {
+/* MOVILES Y TABLETS*/
+@media all and (min-width: 320px) and (max-width: 768px) {
     .container1 h2 {
         font-size: 32px;
     }
@@ -90,8 +99,20 @@ body{
     .container1 h3 {
         font-size: 19px;
     }
+
+    .containertvycasa h1{
+        font-size: 48px;
+    }
+
+    .containertvycasa h2{
+        font-size: 21px;
+    }
+ 
 }
 
+
+
+/* PORTATILES */
 @media all and (min-width: 769px) and (max-width:1024px) {
     .container1 h2 {
         font-size: 48px;
@@ -100,6 +121,44 @@ body{
     .container1 h3 {
         font-size: 24px;
     }
+
+    .containertvycasa h1{
+        font-size: 48px;
+    }
+
+    .containertvycasa h2{
+        font-size: 21px;
+    }
 }
 
 
+
+/* ESCRITORIO */
+@media all and (min-width: 1025px) and (max-width:1200px) {
+    .containertvycasa h1{
+        font-size: 64px;
+    }
+
+    .containertvycasa h2{
+        font-size: 24px;
+    }
+    
+
+}
+
+
+/* TELEVISION */
+
+@media all and (min-width: 1201px) {
+
+    .containertvycasa h1{
+        font-size: 96px;
+    }
+
+    .containertvycasa h2{
+        font-size: 24px;
+    }
+
+
+
+}
