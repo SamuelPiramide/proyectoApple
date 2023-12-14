@@ -115,6 +115,8 @@ body{
     background-color: white;
     border-radius: 10px;
     width: 50%;
+    padding-top: 40px;
+    
 }
 
 #logoapple{
@@ -147,6 +149,10 @@ body{
     color: #0071E3;
 }
 
+.tarjeta h3{
+    font-size: 36px;
+}
+
 #tarjeta1{
     background-color: black;
     color: white;
@@ -175,6 +181,10 @@ body{
     .containertvycasa h2{
         font-size: 21px;
     }
+
+    .tarjeta h3{
+        font-size: 24px;
+    }
  
 }
 
@@ -197,6 +207,10 @@ body{
     .containertvycasa h2{
         font-size: 21px;
     }
+
+    .tarjeta h3{
+        font-size: 24px;
+    }
 }
 
 
@@ -208,6 +222,10 @@ body{
     }
 
     .containertvycasa h2{
+        font-size: 24px;
+    }
+
+    .tarjeta h3{
         font-size: 24px;
     }
     
@@ -226,6 +244,8 @@ body{
         font-size: 24px;
     }
 
-
+    .tarjeta h3{
+        font-size: 36px;
+    }
 
 }
