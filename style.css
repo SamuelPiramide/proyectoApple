@@ -222,8 +222,8 @@ body{
     }
 
     .containertarjetas{
-        margin: 0;
-        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .containertarjetas .c1, .containertarjetas .c2{
